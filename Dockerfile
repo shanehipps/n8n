@@ -27,5 +27,3 @@ ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 # Install n8n-nodes-puppeteer
 USER node
 RUN npm install n8n-nodes-puppeteer
-Update Dockerfile to use apk instead of apt-get
-

@@ -6,8 +6,7 @@ RUN apk update && apk add --no-cache \
     fontconfig \
     ttf-freefont \
     alsa-lib \
-    at-spi2-atk \
-    atk \
+    at-spi2-core \
     cairo \
     cups-libs \
     libdrm \

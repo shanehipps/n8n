@@ -25,4 +25,4 @@ ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 
 # Install n8n-nodes-puppeteer
 USER node
-RUN npm install n8n-nodes-puppeteer
+RUN npm install n8n-nodes-puppeteer@latest
